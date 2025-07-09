@@ -13,7 +13,7 @@ if (empty($name) || empty($email) || empty($phone) || empty($password)) {
     exit;
 }
 
-//Send POST request to your register API
+//Send POST request to register API
 $apiUrl = 'http://localhost/authPHP/api/register.php';
 
 $data = [
